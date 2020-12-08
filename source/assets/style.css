@@ -4,7 +4,7 @@ html{
 
 body{
     height: 100%;
-    background-color: black;
+    background-color: rgb(2, 0, 12);
     color: white;
     /*position: absolute;
     top:0; bottom:0; right: 0; left:0;*/
@@ -29,7 +29,7 @@ a > h1{
     transition: 0.7s;
 }
 
-a > h2{
+a h2{
     font-size: 0px;
     transition: 1s;
     color: black;
