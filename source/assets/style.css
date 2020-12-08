@@ -1,9 +1,13 @@
+html{
+    height: 80%;
+}
+
 body{
     height: 100%;
     background-color: black;
     color: white;
-    font-family: sans-serif;
-    text-align: center;
+    /*position: absolute;
+    top:0; bottom:0; right: 0; left:0;*/
     display: flex;
     justify-content: center;
     align-items: center;
