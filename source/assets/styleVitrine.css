@@ -1,59 +1,89 @@
+/*
+#BFC6D9
+#29375C
+#4F517C
+#95A9DF
+#BEBFDF
+#8B8FD9
+#13175C
+*/
+
 body{
-    background-color: #EFF2D5;
+    background-color: #BFC6D9;
     font-family: sans-serif;
     padding: 0;
     margin: 0;
 }
 
 header{
-    background-color: #748C1C;
+    background-color: #29375C;
     width: 100%;
     height: 80px;
     margin:0;
     text-align: center;
-    box-shadow: 0px 5px 10px rgb(145, 145, 145);
+    box-shadow: 0px 12px 10px rgb(145, 145, 145);
     z-index: 9999;
 }
 
-.logo{
-    width:80px;
-    height:80px;
-    float: left;
-    margin:0;
+.navb{
+    height: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.logo > img{
-    display: block;
-    max-width:100%;
-    max-height:100%;
-    margin:0;
-    line-height: 50px;
-}
-
-ul{
-    list-style-type: none;
-    float: right;
-}
-
-li{
-    line-height: 50px;
-    width:auto;
-    display: inline-block;
-    margin-right: 13px;
-    transition: 0.2s;
-    cursor: pointer;
-}
-
-li:hover{
-    background-color: rgb(17, 75, 0);
-}
-
-a{
+.navb > a{
     color:white;
     text-decoration: none;
     text-transform: uppercase;
-    margin-right: 10px;
-    margin-left: 10px;
     font-weight: bold;
     font-size: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding:20px;
+    transition: 0.4s;
+    border-radius:10px;
+}
+
+.navb > a:hover{
+    background-color: #4F517C;
+    box-shadow: 0px 2px 2px black;
+    border-radius: 25px;;
+}
+
+.search{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#95A9DF;
+    height:50px;
+    border-radius: 500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.search input{
+    background-color: transparent;
+    border:none;
+    color:white;
+    width:0px;
+    transition: 0.4s;
+    font-size:14px;
+}
+
+.search a > img{
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+    color: white;
+}
+
+.search:hover > input{
+    border-bottom: solid 1px;
+    width:240px;
+}
+
+#searchBar:focus{
+    border-bottom: solid 1px;
+    width:240px;
 }
